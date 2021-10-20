@@ -5,7 +5,7 @@
     <classes>
       <class name="Qualicoach.StudentModuleTest">
         <methods>
-          <include name="feedbackformtest"/>
+          <include name="quizattempttest"/>
         </methods>
       </class> <!-- Qualicoach.StudentModuleTest -->
     </classes>

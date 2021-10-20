@@ -2,48 +2,17 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62578" started-at="2021-10-20T06:37:05Z" finished-at="2021-10-20T06:38:07Z">
+  <suite name="Default suite" duration-ms="68426" started-at="2021-10-20T07:59:02Z" finished-at="2021-10-20T08:00:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62578" started-at="2021-10-20T06:37:05Z" finished-at="2021-10-20T06:38:07Z">
+    <test name="Default test" duration-ms="68426" started-at="2021-10-20T07:59:02Z" finished-at="2021-10-20T08:00:10Z">
       <class name="Qualicoach.StudentModuleTest">
-        <test-method status="FAIL" signature="feedbackformtest()[pri:0, instance:Qualicoach.StudentModuleTest@5c7fa833]" name="feedbackformtest" duration-ms="62541" started-at="2021-10-20T12:07:05Z" finished-at="2021-10-20T12:08:07Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=94.0.4606.81)
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-2S24NLE', ip: '192.168.29.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}), userDataDir=C:\Users\AB\AppData\Local\Temp\scoped_dir12892_171644069}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56078}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=94.0.4606.81, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: 0f3d1c59e0bdfc7ed7035ef68a46dda1
-*** Element info: {Using=link text, value=Answer the questions}]]>
-            </message>
+        <test-method status="FAIL" signature="quizattempttest()[pri:0, instance:Qualicoach.StudentModuleTest@5c7fa833]" name="quizattempttest" duration-ms="68360" started-at="2021-10-20T13:29:02Z" finished-at="2021-10-20T13:30:10Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=94.0.4606.81)
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-2S24NLE', ip: '192.168.29.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}), userDataDir=C:\Users\AB\AppData\Local\Temp\scoped_dir12892_171644069}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56078}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=94.0.4606.81, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: 0f3d1c59e0bdfc7ed7035ef68a46dda1
-*** Element info: {Using=link text, value=Answer the questions}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:410)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at studentmodule.feedback.feedbackformtest(feedback.java:29)
-	at Qualicoach.StudentModuleTest.feedbackformtest(StudentModuleTest.java:73)
+              <![CDATA[java.lang.NullPointerException
+	at studentmodule.quiz.quizattempt(quiz.java:25)
+	at Qualicoach.StudentModuleTest.quizattempttest(StudentModuleTest.java:65)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -71,10 +40,10 @@ Session ID: 0f3d1c59e0bdfc7ed7035ef68a46dda1
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- feedbackformtest -->
+        </test-method> <!-- quizattempttest -->
       </class> <!-- Qualicoach.StudentModuleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

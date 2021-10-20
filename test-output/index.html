@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\AB\AppData\Local\Temp\testng-eclipse-467712950\testng-customsuite.xml</span>
+                    <span>C:\Users\AB\AppData\Local\Temp\testng-eclipse--357375347\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Qualicoach.StudentModuleTest" hash-for-method="feedbackformtest">feedbackformtest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Qualicoach.StudentModuleTest" hash-for-method="quizattempttest">quizattempttest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -125,33 +125,12 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="feedbackformtest">
-                  </a> <!-- feedbackformtest -->
-                  <span class="method-name">feedbackformtest</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=94.0.4606.81)
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;DESKTOP-2S24NLE&apos;, ip: &apos;192.168.29.168&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}), userDataDir=C:\Users\AB\AppData\Local\Temp\scoped_dir12892_171644069}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56078}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=94.0.4606.81, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: 0f3d1c59e0bdfc7ed7035ef68a46dda1
-*** Element info: {Using=link text, value=Answer the questions}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:410)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at studentmodule.feedback.feedbackformtest(feedback.java:29)
-	at Qualicoach.StudentModuleTest.feedbackformtest(StudentModuleTest.java:73)
+                  <a name="quizattempttest">
+                  </a> <!-- quizattempttest -->
+                  <span class="method-name">quizattempttest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at studentmodule.quiz.quizattempt(quiz.java:25)
+	at Qualicoach.StudentModuleTest.quizattempttest(StudentModuleTest.java:65)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -186,7 +165,7 @@ Session ID: 0f3d1c59e0bdfc7ed7035ef68a46dda1
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\AB\AppData\Local\Temp\testng-eclipse-467712950\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\AB\AppData\Local\Temp\testng-eclipse--357375347\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -237,9 +216,9 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'feedbackformtest')
+data.setCell(0, 1, 'quizattempttest')
 data.setCell(0, 2, 'Qualicoach.StudentModuleTest')
-data.setCell(0, 3, 62541);
+data.setCell(0, 3, 68360);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -274,7 +253,7 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">feedbackformtest</span>
+                <span class="method-name">quizattempttest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
