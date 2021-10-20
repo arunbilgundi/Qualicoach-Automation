@@ -23,7 +23,7 @@ public class StudentModuleTest extends driverInit
 	public WebDriver driver;					//declare driver
 
 
-	//@Test
+	@Test
 	public void loginChecktest() throws IOException
 	{
 		driver=driver();
@@ -33,7 +33,7 @@ public class StudentModuleTest extends driverInit
 		
 	}
 
-	//@Test
+	@Test
 	public void EnrollChecktest() throws IOException {
 		driver=driver();
 		EnrollCourse b= new EnrollCourse(driver);
@@ -41,7 +41,7 @@ public class StudentModuleTest extends driverInit
 		driver.close();
 	}
 	
-//	@Test
+	@Test
 	public void UpdateProfiletest() throws IOException {
 		driver=driver();
 		UpdateProfile p=new UpdateProfile(driver);
@@ -50,7 +50,7 @@ public class StudentModuleTest extends driverInit
 		
 	}
 	
-//	@Test
+	@Test
 	public void Downloadtest() throws Exception {
 		driver=driver();
 		DownloadCertificate c=new DownloadCertificate(driver);
@@ -58,7 +58,7 @@ public class StudentModuleTest extends driverInit
 		driver.quit();
 	}
 	
-	//@Test
+	@Test
 	public void quizattempttest() throws IOException {
 		driver=driver();
 		quiz q=new quiz(driver);
