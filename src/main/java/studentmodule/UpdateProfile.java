@@ -24,6 +24,6 @@ public class UpdateProfile extends driverInit {
 		driver.findElement(By.xpath("//*[@id='id_firstname']")).clear();
 		driver.findElement(By.xpath("//*[@id='id_firstname']")).sendKeys("Test141");
 		driver.findElement(By.xpath("//*[@value='Update profile']")).click();
-		
+			
 }
 }

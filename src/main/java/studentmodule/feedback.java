@@ -24,8 +24,12 @@ public WebDriver driver;
 		Actions a = new Actions(driver);
 		WebElement move = driver.findElement(By.xpath("//div[@cat-id='3'] /a /p[text()='Selenium Beginners']"));
 		a.moveToElement(move).click().build().perform();
+		try {
 		driver.findElement(By.xpath("//div[@class='content'] / div[@id='accordion'] / div[7] "));
 		driver.findElement(By.xpath("//div[@class='content'] / div[@id='accordion'] / div[7] / div[1] / div[1] "));
 		driver.findElement(By.linkText("Answer the questions"));
+	}catch(Exception e) {
+		System.out.println("already attempted feedback");
 	}
+	}	
 }

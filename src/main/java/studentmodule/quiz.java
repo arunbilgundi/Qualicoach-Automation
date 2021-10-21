@@ -21,9 +21,12 @@ public class quiz {
 		Actions a = new Actions(driver);
 		WebElement move = driver.findElement(By.xpath("//div[@cat-id='3'] /a /p[text()='ISTQB-ISEB']"));
 		a.moveToElement(move).click().build().perform();
+		try {
 		driver.findElement(By.id("next-activity-link")).click();
 		driver.findElement(By.xpath("//*[@value='Attempt quiz now']")).click();
 		driver.findElement(By.xpath("//*[@value='Start attempt']")).click();
+	}catch(Exception e) {
+		System.out.println("already attempted quiz");
 	}
-
+	}
 }

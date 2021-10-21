@@ -29,7 +29,7 @@ public class login {
 		
 		driver.get("https://test.qualicoach.org/?");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		loginObj l = new loginObj(driver);
 		l.uName().sendKeys(p.getProperty("uname"));
 		l.pwd().sendKeys(p.getProperty("pwd"));

@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65380" started-at="2021-10-21T07:33:03Z" finished-at="2021-10-21T07:34:08Z">
+  <suite name="Suite1" duration-ms="309724" started-at="2021-10-21T11:18:25Z" finished-at="2021-10-21T11:23:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="65380" started-at="2021-10-21T07:33:03Z" finished-at="2021-10-21T07:34:08Z">
+    <test name="Test1" duration-ms="309724" started-at="2021-10-21T11:18:25Z" finished-at="2021-10-21T11:23:34Z">
+      <class name="AdminModule.verifyDownload">
+        <test-method status="PASS" signature="DownloadTest()[pri:0, instance:AdminModule.verifyDownload@18be83e4]" name="DownloadTest" duration-ms="40632" started-at="2021-10-21T16:51:58Z" finished-at="2021-10-21T16:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadTest -->
+      </class> <!-- AdminModule.verifyDownload -->
+      <class name="AdminModule.verifyEditUser">
+        <test-method status="PASS" signature="EditUserTest()[pri:0, instance:AdminModule.verifyEditUser@cb5822]" name="EditUserTest" duration-ms="56148" started-at="2021-10-21T16:52:38Z" finished-at="2021-10-21T16:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditUserTest -->
+      </class> <!-- AdminModule.verifyEditUser -->
       <class name="AdminModule.verifycourse">
-        <test-method status="PASS" signature="VerifycourseTest()[pri:0, instance:AdminModule.verifycourse@28feb3fa]" name="VerifycourseTest" duration-ms="65347" started-at="2021-10-21T13:03:03Z" finished-at="2021-10-21T13:04:08Z">
+        <test-method status="PASS" signature="VerifycourseTest()[pri:0, instance:AdminModule.verifycourse@8bd1b6a]" name="VerifycourseTest" duration-ms="66013" started-at="2021-10-21T16:50:52Z" finished-at="2021-10-21T16:51:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifycourseTest -->
       </class> <!-- AdminModule.verifycourse -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="AdminModule.verifyDeluser">
+        <test-method status="PASS" signature="VerifyDeleteTest()[pri:0, instance:AdminModule.verifyDeluser@55f3ddb1]" name="VerifyDeleteTest" duration-ms="61870" started-at="2021-10-21T16:49:50Z" finished-at="2021-10-21T16:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteTest -->
+      </class> <!-- AdminModule.verifyDeluser -->
+      <class name="AdminModule.verifyLogin">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:AdminModule.verifyLogin@6767c1fc]" name="firstTest" duration-ms="32862" started-at="2021-10-21T16:48:25Z" finished-at="2021-10-21T16:48:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+      </class> <!-- AdminModule.verifyLogin -->
+      <class name="AdminModule.verifyEnroll">
+        <test-method status="PASS" signature="AddUserTest()[pri:0, instance:AdminModule.verifyEnroll@cc285f4]" name="AddUserTest" duration-ms="52152" started-at="2021-10-21T16:48:58Z" finished-at="2021-10-21T16:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUserTest -->
+      </class> <!-- AdminModule.verifyEnroll -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>
