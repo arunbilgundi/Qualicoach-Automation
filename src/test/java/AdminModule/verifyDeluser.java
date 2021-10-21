@@ -9,12 +9,13 @@ import studentmodule.driverInit;
 
 public class verifyDeluser {
 	driverInit d=new driverInit();
+	
 	@Test
 	public void VerifyDeleteTest() throws IOException {
 		
 		WebDriver driver=d.driver();
-		DelUser d=new DelUser(driver);
-		d.getDelete();
+		DelUser d1=new DelUser(driver);
+		d1.getDelete();
 		driver.close();
 	}
 }

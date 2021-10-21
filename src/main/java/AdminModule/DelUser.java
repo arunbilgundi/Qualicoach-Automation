@@ -17,6 +17,9 @@ public class DelUser extends GotoAdmin {
 	By filter=By.cssSelector("input[id='id_addfilter']");
 	By row=By.xpath("//*[@class='lastrow'] /td[6] /a[1]");
 	By delete=By.cssSelector("input[value='Delete']");
+	By userbutton=By.className("userbutton");
+	By dashboard=By.id("actionmenuaction-1");
+	By administration=By.className("administration");
 	public WebDriver driver;
 	 public DelUser(WebDriver driver) {
 		
@@ -25,11 +28,15 @@ public class DelUser extends GotoAdmin {
 	public void getDelete() throws IOException {
 		login l=new login(driver);
 		l.login2();
-			getDashboard();
-			getAdminstration();
+		//	getDashboard();
+		//	getAdminstration();
+		driver.findElement(userbutton).click();
+		driver.findElement(dashboard).click();
+		
+		driver.findElement(administration).click();
 			driver.findElement(users).click();
 			driver.findElement(Edit).click();
-			driver.findElement(textbox).sendKeys("Veena K M");
+			driver.findElement(textbox).sendKeys("user1212");
 			driver.findElement(filter).click();
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("window.scrollBy(0,1000)");

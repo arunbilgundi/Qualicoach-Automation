@@ -44,12 +44,12 @@ public class EnrollnewUser extends GotoAdmin {
 		
 		driver.findElement(users).click();
 		driver.findElement(addnewuser).click();
-		driver.findElement(username).sendKeys(p.getProperty("username1"));
+		driver.findElement(username).sendKeys(p.getProperty("username2"));
 		driver.findElement(By.cssSelector("span[data-passwordunmask='displayvalue']")).click();
-		driver.findElement(password).sendKeys(p.getProperty("password1"));
-		driver.findElement(fname).sendKeys(p.getProperty("fname1"));
-		driver.findElement(lname).sendKeys(p.getProperty("lname1"));
-		driver.findElement(email).sendKeys(p.getProperty("email1"));
+		driver.findElement(password).sendKeys(p.getProperty("password2"));
+		driver.findElement(fname).sendKeys(p.getProperty("fname2"));
+		driver.findElement(lname).sendKeys(p.getProperty("lname2"));
+		driver.findElement(email).sendKeys(p.getProperty("email2"));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,1000)");
 		driver.findElement(submit).click();

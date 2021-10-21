@@ -18,6 +18,7 @@ public class verifycourse {
 		WebDriver driver=d.driver();
 		NewCourse c=new NewCourse(driver);
 		c.getNewCourse();
+		driver.close();
 	}
 
 }

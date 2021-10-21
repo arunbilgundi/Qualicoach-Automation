@@ -19,7 +19,7 @@ public class verifyDownload {
 		WebDriver driver=d.driver();
 		Downloadcsv d=new Downloadcsv(driver);
 		d.getDownload();
-		
+		driver.close();
 	}
 
 	

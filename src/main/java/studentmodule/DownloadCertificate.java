@@ -24,6 +24,7 @@ public class DownloadCertificate extends driverInit {
 	driver.findElement(By.xpath("//*[@aria-controls='collapse7']")).click();
 	driver.findElement(By.xpath("//div[contains(text(),'Selenium Beg Certificate')]")).click();
 	driver.findElement(By.xpath("//*[@type='submit']")).click();
+	Thread.sleep(2000);
 	
 	}
 }

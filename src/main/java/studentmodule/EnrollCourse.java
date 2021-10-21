@@ -31,17 +31,23 @@ public class EnrollCourse extends driverInit {
 	WebElement move = driver.findElement(By.xpath("//div[@cat-id='3'] /a /p[text()='Load Runner']"));
 	a.moveToElement(move).click().build().perform();
 	
-	// if ((boolean) driver.findElement(By.xpath("//*[@value='Enrol me']")).isDisplayed()) {
-	//driver.findElement(By.xpath("//*[@value='Enrol me']")).click();
-	/*driver.findElement(By.id("next-activity-link")).click();
-	driver.findElement(By.xpath("//*[@value='Attempt quiz now']")).click();
-	driver.findElement(By.xpath("//*[@value='Start attempt']")).click();*/
-	
 		
 		
 		}
 }
 
+
+
+
+
+
+
+
+// if ((boolean) driver.findElement(By.xpath("//*[@value='Enrol me']")).isDisplayed()) {
+//driver.findElement(By.xpath("//*[@value='Enrol me']")).click();
+/*driver.findElement(By.id("next-activity-link")).click();
+driver.findElement(By.xpath("//*[@value='Attempt quiz now']")).click();
+driver.findElement(By.xpath("//*[@value='Start attempt']")).click();*/
 
 
 

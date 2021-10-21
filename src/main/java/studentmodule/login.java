@@ -43,8 +43,6 @@ public class login {
 		FileInputStream f1=new FileInputStream("C:\\Users\\AB\\ArunAssignment\\src\\main\\java\\studentmodule\\data.properties");
 		p.load(f1);
 		
-		
-		
 		driver.get("https://test.qualicoach.org/?");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

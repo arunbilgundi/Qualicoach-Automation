@@ -50,7 +50,7 @@ public class StudentModuleTest extends driverInit
 		
 	}
 	
-	@Test
+//	@Test
 	public void Downloadtest() throws Exception {
 		driver=driver();
 		DownloadCertificate c=new DownloadCertificate(driver);
